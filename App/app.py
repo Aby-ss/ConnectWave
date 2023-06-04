@@ -41,4 +41,30 @@ layout["Lower_Body"].split_row(
     Layout(name = "LB_2")
 )
 
+class Header:
+
+    def __rich__(self) -> Panel:
+        grid = Table.grid(expand=True)
+        grid.add_column(justify="left")
+        grid.add_column(justify="center", ratio=1)
+        grid.add_column(justify="right")
+        grid.add_row(
+            "👔", "[b]ConnectWave[/]", datetime.now().ctime().replace(":", "[blink]:[/]"),
+        )
+        return Panel(grid, style="bold white")
+    
+class Footer:
+
+    def __rich__(self) -> Panel:
+        grid = Table.grid(expand=True)
+        grid.add_column(justify="left")
+        grid.add_column(justify="center", ratio=1)
+        grid.add_column(justify="right")
+        grid.add_row(
+            "💻", "[b]Simplifying Collaboration. Empowering Success.[/]", "📊")
+        return Panel(grid, style="blue on black")
+
+layout["Header"].update(Header())
+layout["Footer"].update(Footer())
+
 print(layout)
