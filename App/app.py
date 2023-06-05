@@ -9,6 +9,7 @@ import asciichartpy
 
 from rich import print
 from rich import box
+from rich.tree import Tree
 from rich.text import Text
 from rich.align import Align
 from rich.panel import Panel
@@ -68,8 +69,24 @@ class Footer:
         grid.add_row(
             "💻", "[b]Simplifying Collaboration. Empowering Success.[/]", "📊")
         return Panel(grid, style="blue on black")
+    
+def Channels():
+    tree = Tree("Rich Tree")
+    tree.add("foo")
+    tree.add("bar")
+    
+    baz_tree = tree.add("Business")
+    baz_tree.add("[red]Document Channel")
+    baz_tree = tree.add("Finances")
+    baz_tree.add("General")
+    baz_tree.add("Documents")
+    
+    channels_panel = Panel(baz_tree, title = "Channels", border_style="Bold white", box = box.SQUARE)
+    
+    return channels_panel
 
 layout["Header"].update(Header())
 layout["Footer"].update(Footer())
+layout["Channels"].update(Channels())
 
 print(layout)
