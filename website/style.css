@@ -5,7 +5,7 @@ body {
     margin: 0;
     font-family: 'Prompt', sans-serif;
     color: white;
-    background: #A7DBD8;
+    background: #556270;
     overflow-x: hidden;
 }
     
@@ -75,7 +75,7 @@ section {
 }
 
 .banner-section {
-  background-color: #63bff0;
+  background-color: #C7F464;
   height: 200px;
   width: 350vw; /* Set the width to 100% of the viewport width */
   margin-top: -10px; /* Adjust the negative margin to increase the top size */
@@ -85,7 +85,7 @@ section {
 }
 
 .small-banner-section {
-  background-color: #22a7f0;
+  background-color: #4ECDC4;
   height: 100px;
   width: 350vw; /* Set the width to 100% of the viewport width */
   margin-top: 250px; /* Adjust the negative margin to increase the top size */
@@ -95,16 +95,17 @@ section {
   justify-content: center; /* Center the content horizontally */
 }
 
-.pink-banner-section {
-  background-color: #e14b31;
-  height: 150px;
+.title-banner-section {
+  background-color: #4ECDC4;
+  height: 100px;
   width: 350vw; /* Set the width to 100% of the viewport width */
-  margin-top: 20px; /* Adjust the negative margin to increase the top size */
+  margin-top: 10px; /* Adjust the negative margin to increase the top size */
   margin-bottom: 20px;
   display: flex; /* Enable flexbox layout */
   align-items: center; /* Center the content vertically */
   justify-content: center; /* Center the content horizontally */
 }
+
 
 .red-banner-section {
   background-color: #cd3116;
@@ -118,7 +119,7 @@ section {
 }
 
 .FAQ-section{
-  background-color: #1f8fcb;
+  background-color: #FF6B6B;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
@@ -126,19 +127,6 @@ section {
   max-width: 100%;  
 }
 
-.red {
-  background-color: #de6e56;
-}
-.red-section {
-  background-color: #de6e56;
-  height: 150px;
-  width: 155vw; /* Set the width to 100% of the viewport width */
-  margin-top: 10px; /* Adjust the negative margin to increase the top size */
-  margin-bottom: 10px;
-  display: flex; /* Enable flexbox layout */
-  align-items: center; /* Center the content vertically */
-  justify-content: center; /* Center the content horizontally */
-}
 
 .section_ {
   display: flex;
@@ -160,12 +148,6 @@ section {
   margin: 35px; /* Adjust the margin to control the spacing */
 }
 
-.larger-button {
-  width: 150px;
-  height: 50px;
-  font-size: 18px;
-  background-color: #950740;
-}
 
 .image-section {
   display: flex;
@@ -198,11 +180,11 @@ section {
   margin: 0;
   margin-top: 100px;
   margin-bottom: 250px;
-  background-color: #1f8fcb;
+  background-color: #69D2E7;
 }
 
 .custom-section {
-  background-color: #1f8fcb;
+  background-color: #5ab5c8;
   border-radius: 10px;
   padding: 20px;
   max-width: 100%;
