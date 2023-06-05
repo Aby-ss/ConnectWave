@@ -32,7 +32,7 @@ layout.split_column(
 )
 
 layout["Body"].split_column(
-    Layout(name = "Upper_Body"),
+    Layout(name = "Upper_Body", ratio=2),
     Layout(name = "Lower_Body")
 )
 
