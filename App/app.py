@@ -36,6 +36,11 @@ layout["Body"].split_column(
     Layout(name = "Lower_Body")
 )
 
+layout["Upper_Body"].split_row(
+    Layout(name="Channels"),
+    Layout(name="Chat", ratio=4)    
+)
+
 layout["Lower_Body"].split_row(
     Layout(name = "LB_1"),
     Layout(name = "LB_2")
