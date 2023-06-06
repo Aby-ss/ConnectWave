@@ -10,6 +10,7 @@ PORT = 5000        # The port used by the server
 # Flag to control client loop
 running = True
 
+
 def receive_messages(client_socket):
     console = Console()
     while running:
