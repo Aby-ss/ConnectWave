@@ -1,16 +1,22 @@
 import socket
 import threading
+from rich.console import Console
+from rich.panel import Panel
 
 # Server configuration
 HOST = '127.0.0.1'  # The server's hostname or IP address
 PORT = 5000        # The port used by the server
 
 def receive_messages(client_socket):
+    console = Console()
     while True:
         try:
             # Receive message from server
             message = client_socket.recv(1024).decode('utf-8')
-            print(message)
+
+            # Display the message in a rich panel
+            panel = Panel(message, style="bold cyan", expand=False)
+            console.print(panel)
         except:
             # Server has disconnected
             client_socket.close()
