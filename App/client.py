@@ -24,7 +24,7 @@ def receive_messages(client_socket):
                 break
 
             # Display the message in a rich panel
-            panel = Panel(message, style="bold blue", expand=False)
+            panel = Panel(message, style="bold cyan", expand=False)
             console.print(panel)
 
             # Check if message is "bye" to exit client script
@@ -54,4 +54,16 @@ def start_client():
         message = input()
 
         # Check if user wants to exit
-        if message
+        if message.lower() == 'bye':
+            client_socket.send(message.encode('utf-8'))
+            print('Exiting...')
+            running = False
+            break
+
+        client_socket.send(message.encode('utf-8'))
+
+    # Close the client socket
+    client_socket.close()
+
+if __name__ == '__main__':
+    start_client()
