@@ -229,3 +229,11 @@ section {
   margin-bottom: 30px;
   max-width: 5000px;
 }
+
+.contact-us {
+  font-size: 45px;
+  margin-right: 450px;
+  background-color: #5ab5c8;
+  max-width: 50%;
+  border-radius: 50px;
+}
