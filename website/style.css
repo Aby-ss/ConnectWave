@@ -141,11 +141,12 @@ section {
 }
 
 .box_ {
-  background-color: #1f8fcb;
-  width: 35%; /* Adjust the width as needed */
+  background-color: #abde3d;
+  width: 100%; /* Adjust the width as needed */
   padding: 20px;
   border-radius: 10px; /* Add border-radius to create rounded corners */
   margin: 35px; /* Adjust the margin to control the spacing */
+  margin-bottom: 70px;
 }
 
 
