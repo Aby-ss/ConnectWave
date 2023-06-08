@@ -44,7 +44,7 @@ layout["Upper_Body"].split_row(
 
 layout["Chat"].split_column(
     Layout(name = "messages"),
-    Layout(name = "type bar", size=4)
+    Layout(name = "type bar", size=3)
 )
 
 layout["Lower_Body"].split_row(
@@ -95,10 +95,15 @@ def messages_():
     
     return Panel(messages, title="General", title_align="left", border_style="bold white", box = box.SQUARE)
 
+def type_bar():
+    typing_bar = Panel("📝  📎  ✏  [dim italic]write a message ...[/]", box = box.SQUARE)
+    
+    return typing_bar
 
 layout["Header"].update(Header())
 layout["Footer"].update(Footer())
 layout["Channels"].update(Channels())
 layout["messages"].update(messages_())
+layout["type bar"].update(type_bar())
 
 print(layout)
