@@ -1,5 +1,5 @@
 # ConnectWave
-🗺 - An SaaS business Project 
+🗺 - A SaaS business Project 
 
 **ConnectWave is an innovative Software-as-a-Service (SaaS) platform that revolutionizes remote collaboration and communication for businesses. It offers a comprehensive suite of tools and features that enable seamless virtual collaboration, efficient communication, and streamlined project management. ConnectWave empowers businesses to bridge the physical distance between teams and achieve productivity regardless of their geographical locations.**
 
