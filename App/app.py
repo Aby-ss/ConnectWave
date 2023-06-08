@@ -90,11 +90,15 @@ def Channels():
     
     return channels_panel
 
-def Chat():
-    ...
+def messages_():
+    messages = "[b]Jake:[/] Meeting @ 4pm ?  [dim]12:40 pm[/]\n[bold]Katy:[/] Sure ! [dim]1:05 pm[/]\n[b]Jake (+2) reacted: 👍🏼[/]\n\n[bold]Jonathan:[/] Sounds like a plan to me [dim]1:23 pm[/]\n\n[bold red]ANNOUNCEMENT : [/][b]Team meeting at 4pm sharp[/] [dim]1:26 pm[/]\n[italic](This message has been sent by the system)[/]"
+    
+    return Panel(messages, title="General", title_align="left", border_style="bold white", box = box.SQUARE)
+
 
 layout["Header"].update(Header())
 layout["Footer"].update(Footer())
 layout["Channels"].update(Channels())
+layout["messages"].update(messages_())
 
 print(layout)
