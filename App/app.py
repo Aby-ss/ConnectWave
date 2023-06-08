@@ -42,6 +42,11 @@ layout["Upper_Body"].split_row(
     Layout(name="Chat", ratio=4)    
 )
 
+layout["Chat"].split_column(
+    Layout(name = "messages"),
+    Layout(name = "type bar", size=4)
+)
+
 layout["Lower_Body"].split_row(
     Layout(name = "LB_1"),
     Layout(name = "LB_2")
@@ -84,6 +89,9 @@ def Channels():
     channels_panel = Panel(baz_tree, title = "Channels", border_style="Bold white", box = box.SQUARE)
     
     return channels_panel
+
+def Chat():
+    ...
 
 layout["Header"].update(Header())
 layout["Footer"].update(Footer())
