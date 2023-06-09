@@ -237,3 +237,15 @@ section {
   max-width: 50%;
   border-radius: 50px;
 }
+
+.title-img {
+  display: flex;
+  justify-content: center;
+  width: 2370px;
+  height: 290px;
+
+  margin-top: 300px;
+  margin-bottom: 450px;
+  background-color: #abde3d;
+  border-radius: 25px;
+}
