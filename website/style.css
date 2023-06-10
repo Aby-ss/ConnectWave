@@ -1,12 +1,12 @@
 body {
-    transform: scale(0.65);
-    transform-origin: top left;
-    width: 153.846%; /* (1 / 0.75) = 133.33% to maintain original content size */
-    margin: 0;
-    font-family: 'Prompt', sans-serif;
-    color: white;
-    background: #292929;
-    overflow-x: hidden;
+  transform: scale(0.65);
+  transform-origin: top left;
+  width: 153.846%; /* (1 / 0.75) = 133.33% to maintain original content size */
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  color: white;
+  background: #292929;
+  overflow-x: hidden;
 }
     
 h1 {
