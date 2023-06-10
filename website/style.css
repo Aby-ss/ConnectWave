@@ -269,3 +269,18 @@ section {
 .flip {
   transform: rotate(180deg);
 }
+
+.spacer2 {
+  aspect-ratio: 960/390;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bottom-layer1 {
+  background-image: url('./layered-peaks-bottom.svg');
+}
+.bottom-layer2 {
+  background-image: url('./layered-peaks-bottom.svg');
+}
