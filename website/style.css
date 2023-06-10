@@ -249,3 +249,22 @@ section {
   background-color: #a661df;
   border-radius: 25px;
 }
+
+.spacer {
+  aspect-ratio: 960/1000;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url('./layered-waves.svg');
+}
+.layer2 {
+  background-image: url('./layered-waves.svg');
+}
+
+.flip {
+  transform: rotate(180deg);
+}
