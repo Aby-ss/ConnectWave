@@ -75,7 +75,7 @@ section {
 }
 
 .banner-section {
-  background-color: #AA7DCE;
+  background-color: #954dcf;
   height: 200px;
   width: 350vw; /* Set the width to 100% of the viewport width */
   margin-top: -100px; /* Adjust the negative margin to increase the top size */
@@ -108,7 +108,7 @@ section {
 
 
 .purple-banner-section {
-  background-color: #a661df;
+  background-color: #954dcf;
   height: 150px;
   width: 350vw; /* Set the width to 100% of the viewport width */
   margin-top: 20px; /* Adjust the negative margin to increase the top size */
@@ -120,7 +120,7 @@ section {
 }
 
 .FAQ-section{
-  background-color: #a661df;
+  background-color: #954dcf;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
@@ -142,7 +142,7 @@ section {
 }
 
 .box_ {
-  background-color: #a661df;
+  background-color: #954dcf;
   width: 100%; /* Adjust the width as needed */
   padding: 20px;
   border-radius: 10px; /* Add border-radius to create rounded corners */
@@ -182,11 +182,11 @@ section {
   margin: 0;
   margin-top: 100px;
   margin-bottom: 250px;
-  background-color: #a661df;
+  background-color: #954dcf;
 }
 
 .custom-section {
-  background-color: #a661df;
+  background-color: #954dcf;
   border-radius: 10px;
   padding: 20px;
   max-width: 100%;
@@ -247,7 +247,7 @@ section {
 
   margin-top: 300px;
   margin-bottom: 450px;
-  background-color: #a661df;
+  background-color: #954dcf;
   border-radius: 25px;
 }
 
