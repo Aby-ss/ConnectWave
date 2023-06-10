@@ -78,7 +78,7 @@ section {
   background-color: #AA7DCE;
   height: 200px;
   width: 350vw; /* Set the width to 100% of the viewport width */
-  margin-top: -10px; /* Adjust the negative margin to increase the top size */
+  margin-top: -100px; /* Adjust the negative margin to increase the top size */
   display: flex; /* Enable flexbox layout */
   align-items: center; /* Center the content vertically */
   justify-content: center; /* Center the content horizontally */
