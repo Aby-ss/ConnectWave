@@ -116,6 +116,7 @@ section {
   display: flex; /* Enable flexbox layout */
   align-items: center; /* Center the content vertically */
   justify-content: center; /* Center the content horizontally */
+  text-align: center;
 }
 
 .FAQ-section{
