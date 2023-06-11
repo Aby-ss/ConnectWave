@@ -1,18 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>ConnectWave</class>
+ <widget class="QWidget" name="ConnectWave">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>1264</width>
+    <height>769</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(41, 41, 41);</string>
+  </property>
+  <widget class="QWidget" name="Channels_selector" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>291</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(82, 82, 82);
+border-radius: 20px;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="Channels_info" native="true">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>20</y>
+     <width>931</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(82, 82, 82);
+border-radius: 20px;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="Join_Meeting" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>630</y>
+     <width>651</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(82, 82, 82);
+border-radius: 25px;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="Docs" native="true">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>630</y>
+     <width>561</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(82, 82, 82);
+border-radius: 25px;</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
