@@ -300,3 +300,31 @@ section {
 .bottom2-layer2 {
   background-image: url('./layered-peaks-bottoms-2.svg');
 }
+
+header {
+  background-color: #292929;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
