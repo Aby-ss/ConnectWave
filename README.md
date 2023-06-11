@@ -1,4 +1,6 @@
 # ConnectWave
+![image](https://github.com/Aby-ss/ConnectWave/assets/103417697/7389ef7a-36a6-42ff-9741-4cdd8e4d6828)
+
 🗺 - A SaaS business Project 
 
 **ConnectWave is an innovative Software-as-a-Service (SaaS) platform that revolutionizes remote collaboration and communication for businesses. It offers a comprehensive suite of tools and features that enable seamless virtual collaboration, efficient communication, and streamlined project management. ConnectWave empowers businesses to bridge the physical distance between teams and achieve productivity regardless of their geographical locations.**
@@ -60,3 +62,5 @@
 - **Security and Privacy: Ensure robust security measures to protect sensitive data and communications. Implement features like end-to-end encryption, user authentication, role-based access control, and compliance with data protection regulations.**
 
 **Remember to prioritize user experience, intuitive design, and scalability when developing these features. Conduct user testing and gather feedback to continuously improve and refine your application based on user needs and preferences.**
+
+![image](https://github.com/Aby-ss/ConnectWave/assets/103417697/fe761cfb-1bde-4551-9276-643116d813fa)
