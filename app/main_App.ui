@@ -83,7 +83,7 @@ border-radius: 25px;</string>
      <rect>
       <x>20</x>
       <y>10</y>
-      <width>201</width>
+      <width>351</width>
       <height>41</height>
      </rect>
     </property>
@@ -96,7 +96,20 @@ border-radius: 25px;</string>
      </font>
     </property>
     <property name="text">
-     <string>Join meeting</string>
+     <string>Enter meeting code :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="meeting_code">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(194, 194, 194)</string>
     </property>
    </widget>
   </widget>
