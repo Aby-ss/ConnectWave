@@ -99,17 +99,26 @@ border-radius: 25px;</string>
      <string>Enter meeting code :</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="meeting_code">
+   <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>20</x>
       <y>60</y>
-      <width>421</width>
+      <width>331</width>
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Mulish ExtraBlack</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(194, 194, 194)</string>
+     <string notr="true">background-color: rgb(129, 129, 129);
+</string>
     </property>
    </widget>
   </widget>
@@ -126,21 +135,24 @@ border-radius: 25px;</string>
     <string notr="true">background-color: rgb(82, 82, 82);
 border-radius: 25px;</string>
    </property>
-   <widget class="QLabel" name="docs_text">
+   <widget class="QPushButton" name="Docs_btn">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>50</y>
-      <width>181</width>
-      <height>31</height>
+      <x>30</x>
+      <y>30</y>
+      <width>491</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Mulish ExtraBold</family>
-      <pointsize>20</pointsize>
+      <family>Muli ExtraBold</family>
+      <pointsize>22</pointsize>
       <weight>75</weight>
+      <italic>true</italic>
       <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
      </font>
     </property>
     <property name="text">
