@@ -155,8 +155,17 @@ border-radius: 25px;</string>
       <strikeout>false</strikeout>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(145, 145, 145)</string>
+    </property>
     <property name="text">
      <string>Documents</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
     </property>
    </widget>
   </widget>
