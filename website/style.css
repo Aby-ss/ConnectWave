@@ -321,6 +321,22 @@ section {
   background-image: url('./layered-peaks-top.svg');
 }
 
+.spacer5 {
+  aspect-ratio: 960/1000;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: -10px;
+}
+
+.top-layer1 {
+  background-image: url('./layered-peaks-side.svg');
+}
+.top-layer2 {
+  background-image: url('./layered-peaks-side.svg');
+}
+
 header {
   background-color: #292929;
   padding: 10px;
