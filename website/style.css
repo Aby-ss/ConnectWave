@@ -260,10 +260,10 @@ section {
 }
 
 .layer1 {
-  background-image: url('./layered-waves.svg');
+  background-image: url('./layered-waves-side.svg');
 }
 .layer2 {
-  background-image: url('./layered-waves.svg');
+  background-image: url('./layered-waves-side.svg');
 }
 
 .flip {
